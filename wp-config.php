@@ -26,7 +26,7 @@ define( 'DB_NAME', 'nexbedb' );
 define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', '123654' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -56,6 +56,9 @@ define( 'AUTH_SALT',        'Wj+<.8NFqVZItH*/.HAgBQ~GnXZitfxyFNXBxaYi]Y3e=uW: 77
 define( 'SECURE_AUTH_SALT', 'qh$Pcj02VRc+,j,70i5i/1D_&)p/A>>MF631,y2Q&VBn[L}^TS+awDU6k8OfMk{}' );
 define( 'LOGGED_IN_SALT',   '?XbU]S*kASL+[<8a*%FYoRStKPf!=#LH)/Nm8Dr=2YD^i^J:B<Q*Ia-6b;W}4m l' );
 define( 'NONCE_SALT',       ']z8^V%6#{JCYY0Cb8B!LB)^=}@4=-DP1ie~Zs4TEc)yj|^QAdx<TO[IUH(84GO>1' );
+
+
+define('FS_METHOD','direct');
 
 /**#@-*/
 

@@ -1,0 +1,36 @@
+2023-11-14 22:05:54.139 [info] Log level: Info
+2023-11-14 22:05:54.139 [info] Validating found git in: "git"
+2023-11-14 22:05:54.139 [info] Using git "2.34.1" from "git"
+2023-11-14 22:06:13.189 [info] Log level: Info
+2023-11-14 22:06:13.189 [info] Validating found git in: "git"
+2023-11-14 22:06:13.189 [info] Using git "2.34.1" from "git"
+2023-11-14 22:06:13.197 [info] > git rev-parse --show-toplevel [9ms]
+2023-11-14 22:06:13.216 [info] > git rev-parse --show-toplevel [6ms]
+2023-11-14 22:06:13.231 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-14 22:06:13.240 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-14 22:06:13.263 [info] > git rev-parse --show-toplevel [12ms]
+2023-11-14 22:06:13.284 [info] > git rev-parse --show-toplevel [5ms]
+2023-11-14 22:06:13.297 [info] > git rev-parse --show-toplevel [4ms]
+2023-11-14 22:06:13.308 [info] > git rev-parse --show-toplevel [3ms]
+2023-11-14 22:06:18.568 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-14 22:10:18.032 [info] > git rev-parse --show-toplevel [3ms]
+2023-11-14 22:12:26.624 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-14 22:12:28.515 [info] > git rev-parse --show-toplevel [6ms]
+2023-11-14 22:12:59.922 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-14 22:13:01.241 [info] > git rev-parse --show-toplevel [5ms]
+2023-11-14 22:13:02.600 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-14 22:17:05.778 [warning] Failed to get repository realpath for: "/var/www/html/nexbetest/wp-content/themes/nexb-test/vendor/composer/3a4079bf/wp-cli-i18n-command-7d82e67/". Error: ENOENT: no such file or directory, realpath '/var/www/html/nexbetest/wp-content/themes/nexb-test/vendor/composer/3a4079bf/wp-cli-i18n-command-7d82e67/'
+2023-11-14 22:17:05.791 [warning] Failed to get repository realpath for: "/var/www/html/nexbetest/wp-content/themes/nexb-test/vendor/composer/810e727e/wp-cli-spyc-6aa0b4d/". Error: ENOENT: no such file or directory, realpath '/var/www/html/nexbetest/wp-content/themes/nexb-test/vendor/composer/810e727e/wp-cli-spyc-6aa0b4d/'
+2023-11-14 22:17:05.800 [warning] Failed to get repository realpath for: "/var/www/html/nexbetest/wp-content/themes/nexb-test/vendor/composer/1e90456f/wp-cli-php-cli-tools-b3457a8/". Error: ENOENT: no such file or directory, realpath '/var/www/html/nexbetest/wp-content/themes/nexb-test/vendor/composer/1e90456f/wp-cli-php-cli-tools-b3457a8/'
+2023-11-14 22:17:05.809 [warning] Failed to get repository realpath for: "/var/www/html/nexbetest/wp-content/themes/nexb-test/vendor/composer/42556592/mck89-peast-1df4dc2/". Error: ENOENT: no such file or directory, realpath '/var/www/html/nexbetest/wp-content/themes/nexb-test/vendor/composer/42556592/mck89-peast-1df4dc2/'
+2023-11-14 22:17:05.818 [warning] Failed to get repository realpath for: "/var/www/html/nexbetest/wp-content/themes/nexb-test/vendor/composer/eb7e03d4/wp-cli-wp-cli-8a3befb/". Error: ENOENT: no such file or directory, realpath '/var/www/html/nexbetest/wp-content/themes/nexb-test/vendor/composer/eb7e03d4/wp-cli-wp-cli-8a3befb/'
+2023-11-14 22:19:07.303 [info] > git rev-parse --show-toplevel [6ms]
+2023-11-14 22:23:08.404 [info] > git rev-parse --show-toplevel [6ms]
+2023-11-14 22:23:14.929 [info] > git rev-parse --show-toplevel [6ms]
+2023-11-14 22:51:04.675 [info] > git rev-parse --show-toplevel [37ms]
+2023-11-14 22:51:49.653 [info] > git rev-parse --show-toplevel [17ms]
+2023-11-14 22:56:42.284 [info] > git rev-parse --show-toplevel [4ms]
+2023-11-14 22:57:32.295 [info] > git rev-parse --show-toplevel [7ms]
+2023-11-14 22:57:34.571 [info] > git rev-parse --show-toplevel [16ms]
+2023-11-14 22:57:35.355 [info] > git rev-parse --show-toplevel [4ms]
+2023-11-14 22:57:37.333 [info] > git rev-parse --show-toplevel [3ms]

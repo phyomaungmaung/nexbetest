@@ -1,0 +1,33 @@
+[Global] Creating projects: [{"folder":"/var/www/html/nexbetest/wp-content/themes/nexb-test","configPath":"/var/www/html/nexbetest/wp-content/themes/nexb-test/tailwind.config.js","isUserConfigured":false,"documentSelector":[{"pattern":"/var/www/html/nexbetest/wp-content/themes/nexb-test/tailwind.config.js","priority":0},{"pattern":"/var/www/html/nexbetest/wp-content/themes/nexb-test/template-parts/**/*.php","priority":1},{"pattern":"/var/www/html/nexbetest/wp-content/themes/nexb-test/*.php","priority":1},{"pattern":"/var/www/html/nexbetest/wp-content/themes/nexb-test/js/*.js","priority":1},{"pattern":"/var/www/html/nexbetest/wp-content/themes/nexb-test/**","priority":3}]}]
+[Global] Adding watch patterns: /var/www/html/nexbetest/wp-content/themes/nexb-test/tailwind.config.js, /var/www/html/nexbetest/wp-content/themes/nexb-test
+[tailwind.config.js] Initializing...
+[tailwind.config.js] Loaded Tailwind CSS config file: /var/www/html/nexbetest/wp-content/themes/nexb-test/tailwind.config.js
+[tailwind.config.js] Loaded postcss v8.4.31: /var/www/html/nexbetest/wp-content/themes/nexb-test/node_modules/postcss
+[tailwind.config.js] Loaded tailwindcss v3.3.5: /var/www/html/nexbetest/wp-content/themes/nexb-test/node_modules/tailwindcss
+[tailwind.config.js] Building...
+----------
+RESTARTING
+----------
+[Global] Creating projects: [{"folder":"/var/www/html/nexbetest/wp-content/themes/nexb-test","configPath":"/var/www/html/nexbetest/wp-content/themes/nexb-test/tailwind.config.js","isUserConfigured":false,"documentSelector":[{"pattern":"/var/www/html/nexbetest/wp-content/themes/nexb-test/tailwind.config.js","priority":0},{"pattern":"/var/www/html/nexbetest/wp-content/themes/nexb-test/template-parts/**/*.php","priority":1},{"pattern":"/var/www/html/nexbetest/wp-content/themes/nexb-test/*.php","priority":1},{"pattern":"/var/www/html/nexbetest/wp-content/themes/nexb-test/js/*.js","priority":1},{"pattern":"/var/www/html/nexbetest/wp-content/themes/nexb-test/**","priority":3}]}]
+[Global] Adding watch patterns: /var/www/html/nexbetest/wp-content/themes/nexb-test/tailwind.config.js, /var/www/html/nexbetest/wp-content/themes/nexb-test
+[tailwind.config.js] Initializing...
+[tailwind.config.js] Failed to load workspace modules.
+[tailwind.config.js] Using bundled version of `tailwindcss`: v3.3.0
+[tailwind.config.js] Using bundled version of `postcss`: v8.4.31
+[tailwind.config.js] Building...
+----------
+RESTARTING
+----------
+[Global] Creating projects: [{"folder":"/var/www/html/nexbetest/wp-content/themes/nexb-test","configPath":"/var/www/html/nexbetest/wp-content/themes/nexb-test/tailwind.config.js","isUserConfigured":false,"documentSelector":[{"pattern":"/var/www/html/nexbetest/wp-content/themes/nexb-test/tailwind.config.js","priority":0},{"pattern":"/var/www/html/nexbetest/wp-content/themes/nexb-test/template-parts/**/*.php","priority":1},{"pattern":"/var/www/html/nexbetest/wp-content/themes/nexb-test/*.php","priority":1},{"pattern":"/var/www/html/nexbetest/wp-content/themes/nexb-test/js/*.js","priority":1},{"pattern":"/var/www/html/nexbetest/wp-content/themes/nexb-test/**","priority":3}]}]
+[Global] Adding watch patterns: /var/www/html/nexbetest/wp-content/themes/nexb-test/tailwind.config.js, /var/www/html/nexbetest/wp-content/themes/nexb-test
+[tailwind.config.js] Initializing...
+[tailwind.config.js] Loaded Tailwind CSS config file: /var/www/html/nexbetest/wp-content/themes/nexb-test/tailwind.config.js
+[tailwind.config.js] Loaded postcss v8.4.31: /var/www/html/nexbetest/wp-content/themes/nexb-test/node_modules/postcss
+[tailwind.config.js] Loaded tailwindcss v3.3.5: /var/www/html/nexbetest/wp-content/themes/nexb-test/node_modules/tailwindcss
+[tailwind.config.js] Building...
+[tailwind.config.js] File changed: /var/www/html/nexbetest/wp-content/themes/nexb-test/package-lock.json
+[tailwind.config.js] Initializing...
+[tailwind.config.js] File changed: /var/www/html/nexbetest/wp-content/themes/nexb-test/package-lock.json
+[tailwind.config.js] Initializing...
+[tailwind.config.js] File changed: /var/www/html/nexbetest/wp-content/themes/nexb-test/package-lock.json
+[tailwind.config.js] Initializing...

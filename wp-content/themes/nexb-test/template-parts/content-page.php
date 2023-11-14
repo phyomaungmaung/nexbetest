@@ -157,46 +157,226 @@
 	</div>
 </div>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-	</header><!-- .entry-header -->
+<div class="px-10 py-20 relative">
+	<div class="flex justify-between gap-10">
+		<div class="w-1/2 relative">
+			<img src="http://localhost/nexbetest/wp-content/uploads/2023/11/Rectangle-17.png" alt="" class="rounded-2xl">
+			<div class="absolute bg-[#D27722] w-2/4 text-slate-50 -left-12 bottom-0 rounded-tr-2xl rounded-br-2xl">
+				<div class="text-end p-6">
+					<div class="flex justify-end gap-2 pb-4">
+						<p class="font-bold text-2xl">Level up</p>
+						<img src="http://localhost/nexbetest/wp-content/uploads/2023/11/image-13.png" alt="" class="w-4 object-contain">
+					</div>
+					<p>Take your culinary skills to new heights. Our platform provides you with the expert guidance you need to refine your skills and cook like a pro</p>
+				</div>
+			</div>
+		</div>
+		<div class="w-1/2">
+			<h6 class="font-bold py-4 text-2xl">Other Advantages</h6>
+			<div class="flex flex-col gap-4">
+				<div class="ring-1 ring-[#D27722] ring-opacity-30 rounded-2xl p-5">
+					<div class="flex gap-4">
+						<img src="http://localhost/nexbetest/wp-content/uploads/2023/11/Rectangle-20.png" alt="">
+						<p class="font-bold text-xl">Diverse Range of Classes</p>
+					</div>
+					<p class="pl-12 text-slate-500">Explore the culinary world with our vast array of online cooking classes. Whether you're a beginner or a seasoned cook, we have a class that suits your skill level and interests.</p>
+				</div>
+				<div class="ring-1 ring-[#D27722] ring-opacity-30 rounded-2xl p-5">
+					<div class="flex gap-4">
+						<img src="http://localhost/nexbetest/wp-content/uploads/2023/11/Rectangle-20.png" alt="">
+						<p class="font-bold text-xl">Diverse Range of Classes</p>
+					</div>
+					<p class="pl-12 text-slate-500">Explore the culinary world with our vast array of online cooking classes. Whether you're a beginner or a seasoned cook, we have a class that suits your skill level and interests.</p>
+				</div>
+				<div class="ring-1 ring-[#D27722] ring-opacity-30 rounded-2xl p-5">
+					<div class="flex gap-4">
+						<img src="http://localhost/nexbetest/wp-content/uploads/2023/11/Rectangle-20.png" alt="">
+						<p class="font-bold text-xl">Diverse Range of Classes</p>
+					</div>
+					<p class="pl-12 text-slate-500">Explore the culinary world with our vast array of online cooking classes. Whether you're a beginner or a seasoned cook, we have a class that suits your skill level and interests.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-	<?php nexb_test_post_thumbnail(); ?>
 
-	<div class="entry-content">
-		<?php
-		the_content();
+<div class="px-10 py-20">
+	<div class="flex justify-between items-center">
+		<div class="flex items-start gap-4">
+			<div>
+				<img src="http://localhost/nexbetest/wp-content/uploads/2023/11/Vector-12.png" alt="" class="w-14 pt-2">
+			</div>
+			<div>
+				<h2 class="text-4xl font-bold">How It Works</h2>
+				<p>Getting Started with the COOK Platform</p>
+			</div>
+		</div>
+		<div class="flex items-center gap-4">
+			<img src="http://localhost/nexbetest/wp-content/uploads/2023/11/search.svg" alt="">
+			<span>Search tutors by category </span>
+		</div>
+	</div>
+	<div class="flex justify-between items-center gap-20 pt-20">
+		<div class="w-1/2">
+			<img src="http://localhost/nexbetest/wp-content/uploads/2023/11/Frame-54.png" alt="">
+		</div>
+		<div class="w-1/2">
+			<h2 class="font-bold text-3xl py-4">Explore Our Culinary Experts</h2>
+			<p class="py-4 text-justify">Begin by browsing through our diverse selection of professional tutors and cooking groups. Each tutor brings their unique culinary expertise and passion, ensuring you have a variety of cooking styles and cuisines to choose from.</p>
+			<button class="bg-[#D27722] hover:bg-[#d28c22] py-2 px-6 border-none text-slate-50">Browse Tutors</button>
+		</div>
+	</div>
+</div>
 
-		wp_link_pages(
-			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'nexb-test' ),
-				'after'  => '</div>',
-			)
-		);
-		?>
-	</div><!-- .entry-content -->
+<div class="px-10 py-20">
+   <div class="flex justify-between gap-20 items-center">
+		<div class="w-1/2">
+		<h2 class="font-bold text-3xl py-4">Select Your Perfect Match</h2>
+			<p class="py-4 text-justify">Once you've explored our range of tutors, choose the one that resonates most with you. Their profiles provide detailed information, such as their areas of expertise, availability, and reviews. Scheduling a lesson has never been easier.</p>
+		</div>
+		<div class="w-1/2">
+			<img src="http://localhost/nexbetest/wp-content/uploads/2023/11/Frame-55.png" alt="">
+		</div>
+   </div>
+</div>
 
-	<?php if ( get_edit_post_link() ) : ?>
-		<footer class="entry-footer">
-			<?php
-			edit_post_link(
-				sprintf(
-					wp_kses(
-						/* translators: %s: Name of current post. Only visible to screen readers */
-						__( 'Edit <span class="screen-reader-text">%s</span>', 'nexb-test' ),
-						array(
-							'span' => array(
-								'class' => array(),
-							),
-						)
-					),
-					wp_kses_post( get_the_title() )
-				),
-				'<span class="edit-link">',
-				'</span>'
-			);
-			?>
-		</footer><!-- .entry-footer -->
-	<?php endif; ?>
-</article><!-- #post-<?php the_ID(); ?> -->
+<div class="px-10 py-20">
+   <div class="flex justify-between gap-20 items-center">
+   		<div class="w-1/2">
+			<img src="http://localhost/nexbetest/wp-content/uploads/2023/11/Frame-54-1.png" alt="">
+		</div>
+		<div class="w-1/2">
+		<h2 class="font-bold text-3xl py-4">Select Your Perfect Match</h2>
+			<p class="py-4 text-justify">Once you've explored our range of tutors, choose the one that resonates most with you. Their profiles provide detailed information, such as their areas of expertise, availability, and reviews. Scheduling a lesson has never been easier.</p>
+			<button class="bg-[#D27722] hover:bg-[#d28c22] py-2 px-6 border-none text-slate-50">Sign up for free</button>
+		</div>
+   </div>
+</div>
+
+<div class="flex justify-center py-20 relative">
+	<span class="w-full bg-[#FFDBB8] h-[1px] absolute top-52 z-0"></span>
+	<div class="flex flex-col gap-4 bg-[#fffdf4] z-10 rounded-2xl relative ring-1 ring-[#FFDBB8] container py-10 lg:container mx-96">
+		<img src="http://localhost/nexbetest/wp-content/uploads/2023/11/Group-9.svg" alt="" class="w-34 absolute -top-[4.5rem] ml-40">
+		<h2 class="text-center font-bold text-2xl pt-10">Money-back guarantee</h2>
+		<p class="text-center">We believe you'll enjoy your first cooking lesson. However, we've got your back if anything goes differently than expected. Our money-back guarantee ensures you can take the first step with complete confidence.</p>
+	</div>
+</div>
+
+<div class="px-10 py-20">
+   <div class="flex justify-between gap-20 items-center">
+		<div class="w-1/2">
+			<h2 class="font-bold text-3xl py-4">Become A Chef</h2>
+			<p class="py-4 text-justify">Share your culinary secrets, inspire cooking enthusiasts worldwide, and grow your career like never before. Our platform offers a unique way to connect, teach, and earn.</p>
+			<div class="flex flex-col gap-4 mb-4">
+				<div class="flex gap-2">
+					<img src="http://localhost/nexbetest/wp-content/uploads/2023/11/image-14.svg" alt="" class="-mt-4">
+					<p><span class="font-bold">Build Your Brand.</span> Showcase your culinary skills and build your brand within our community.</p>
+				</div>
+				<div class="flex gap-2">
+					<img src="http://localhost/nexbetest/wp-content/uploads/2023/11/image-14.svg" alt="" class="-mt-4">
+					<p><span class="font-bold">Build Your Brand.</span> Showcase your culinary skills and build your brand within our community.</p>
+				</div>
+				<div class="flex gap-2">
+					<img src="http://localhost/nexbetest/wp-content/uploads/2023/11/image-14.svg" alt="" class="-mt-4">
+					<p><span class="font-bold">Build Your Brand.</span> Showcase your culinary skills and build your brand within our community.</p>
+				</div>
+			</div>
+			<button class="bg-[#D27722] hover:bg-[#d28c22] py-2 px-6 border-none text-slate-50">Become a chef</button>
+			<div class="flex gap-2 items-center pt-4">
+				<img src="http://localhost/nexbetest/wp-content/uploads/2023/11/info.png" alt="">
+				<p>Learn how our platform works</p>
+			</div>
+		</div>
+		<div class="w-1/2">
+			<img src="http://localhost/nexbetest/wp-content/uploads/2023/11/Rectangle-23.png" alt="" class="rounded-2xl">
+		</div>
+   </div>
+</div>
+
+<div class="px-10 py-20">
+	<div class="flex rounded-2xl overflow-hidden">
+		<div class="w-2/5">
+			<img src="http://localhost/nexbetest/wp-content/uploads/2023/11/Rectangle-32.png" alt="">
+		</div>
+		<div class="bg-[#D27722] w-2/3 py-20 px-14 text-slate-50">
+			<h2 class="font-bold text-3xl py-4">Become A Student</h2>
+			<p class="py-4 text-justify">Kick-start your culinary adventure with COOK. We provide a space for cooking enthusiasts of all levels to learn, explore, and master culinary arts from professional chefs worldwide. So dive in and transform your kitchen into a playground of flavors.</p>
+			<div class="flex flex-col gap-4 mb-6">
+				<div class="flex gap-2">
+					<img src="http://localhost/nexbetest/wp-content/uploads/2023/11/image-14-1.svg" alt="">
+					<p><span class="font-bold">Build Your Brand.</span> Showcase your culinary skills and build your brand within our community.</p>
+				</div>
+				<div class="flex gap-2">
+					<img src="http://localhost/nexbetest/wp-content/uploads/2023/11/image-14-1.svg" alt="">
+					<p><span class="font-bold">Build Your Brand.</span> Showcase your culinary skills and build your brand within our community.</p>
+				</div>
+				<div class="flex gap-2">
+					<img src="http://localhost/nexbetest/wp-content/uploads/2023/11/image-14-1.svg" alt="">
+					<p><span class="font-bold">Build Your Brand.</span> Showcase your culinary skills and build your brand within our community.</p>
+				</div>
+			</div>
+			<button class="bg-[#FFDBB8] hover:bg-[#facea2] py-2 px-6 border-none text-slate-800">Sign up</button>
+		</div>
+	</div>
+</div>
+
+
+<div class="px-10 py-20">
+	<div>
+		<div class="flex justify-between">
+			<div class="flex items-start gap-4">
+				<div>
+					<img src="http://localhost/nexbetest/wp-content/uploads/2023/11/Rectangle-16.svg" alt="" class="w-10">
+				</div>
+				<div>
+					<h2 class="text-4xl font-bold">Popular online classes</h2>
+				</div>
+			</div>
+			<div>
+				<div class="flex items-start gap-4">
+					<div>
+						<img src="http://localhost/nexbetest/wp-content/uploads/2023/11/Rectangle-16.svg" alt="" class="w-10">
+					</div>
+					<div>
+						<h2 class="text-4xl font-bold">Popular online classes</h2>
+						<div>
+						<?php
+$args = array(
+    'post_type'      => 'post',
+    'posts_per_page' => 4,
+    'order'          => 'DESC',
+);
+
+$custom_query = new WP_Query($args);
+
+if ($custom_query->have_posts()) :
+    echo '<div class="grid grid-cols-2 gap-4">';
+    while ($custom_query->have_posts()) : $custom_query->the_post();
+
+        $thumbnail = get_the_post_thumbnail(get_the_ID(), 'thumbnail');
+
+        if ($thumbnail) {
+            echo '<div class="col-span-1">' . '<div class="post-thumbnail">' . $thumbnail . '</div>' . '</div>';
+        }
+
+        echo '<div class="col-span-1">';
+        echo '<div class="post-date">' . get_the_date() . '</div>';
+        the_title();
+        echo '</div>';
+
+    endwhile;
+    echo '</div>';
+    wp_reset_postdata();
+else :
+    echo 'No posts found';
+endif;
+?>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+</div>
